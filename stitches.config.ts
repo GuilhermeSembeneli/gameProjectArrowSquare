@@ -57,6 +57,12 @@ export const {
     },
   },
   utils: {
+    flexBox: () => ({
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+    }),
     marginX: <T>(value: T) => ({
       marginLeft: value,
       marginRight: value,
